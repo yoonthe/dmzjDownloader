@@ -1,0 +1,31 @@
+{
+  "name": "dmzjdownloader",
+  "version": "1.0.0",
+  "description": "download from dmzj.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoonthe/dmzjDownloader.git"
+  },
+  "keywords": [
+    "downloader"
+  ],
+  "bin": {
+    "dmzjDown": "./index.js"
+  },
+  "author": "Yoonthe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoonthe/dmzjDownloader/issues"
+  },
+  "homepage": "https://github.com/yoonthe/dmzjDownloader#readme",
+  "dependencies": {
+    "inquirer": "^7.0.0",
+    "puppeteer": "^2.0.0",
+    "urllib": "^2.34.1"
+  }
+}
