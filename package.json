@@ -26,6 +26,6 @@
   "dependencies": {
     "inquirer": "^7.0.0",
     "puppeteer": "^2.0.0",
-    "urllib": "^2.34.1"
+    "urllib": "^2.38.1"
   }
 }
